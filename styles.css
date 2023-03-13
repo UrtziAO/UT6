@@ -25,19 +25,19 @@ h1,h2, footer {
 p {
     font-size: 1.5rem;
     color: lavender;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 footer {
-    border-radius: 20px;
-    margin-left: 15vw;
-    margin-right: 15vw;
-    margin-top: 3vw;
-    background-color: black;
-    height: 5vw;
+    height: 2rem;
     position: relative;
 }
 
 footer div{
+    margin-top: 4vw;
+    border-radius: 20px;
+    background-color: black;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -48,12 +48,7 @@ footer div{
 @media screen and (max-width: 767px){
 
     p {
-    font-size: 1rem;
-    }
-
-    footer {
-        margin-left: 10vw;
-    margin-right: 10vw;
+        font-size: 1rem;
     }
 
     h1{
@@ -62,5 +57,17 @@ footer div{
 
     h2{
         font-size: 1rem ;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    p {
+        font-size: .8rem;
+    }
+
+    footer div{
+        margin-top: 1rem;
     }
 }
